@@ -1,0 +1,6 @@
+carrier,total_pedidos,otd_pct,demora_promedio,costo_promedio,tasa_devolucion
+Andreani,992,0.639,0.144,1344.527,0.048
+Correo Argentino,972,0.596,0.241,1354.407,0.04
+OCA,982,0.616,0.231,1292.565,0.057
+PickIt,1008,0.609,0.175,1340.245,0.056
+Rappi Envíos,1046,0.606,0.228,1341.728,0.054

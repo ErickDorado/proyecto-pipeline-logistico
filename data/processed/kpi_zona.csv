@@ -1,0 +1,7 @@
+zona_destino,total_pedidos,otd_pct,costo_pct_valor,valor_total,demora_promedio
+CABA,842,0.748,192.834,1419959.95,-0.253
+Córdoba,819,0.411,177.6,1638276.23,0.853
+GBA Norte,907,0.681,187.768,1615031.22,-0.092
+GBA Oeste,821,0.633,206.109,1365066.28,0.168
+GBA Sur,790,0.654,200.201,1344884.56,0.054
+Rosario,821,0.541,203.203,1355387.63,0.53
