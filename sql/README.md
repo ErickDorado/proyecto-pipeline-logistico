@@ -16,6 +16,19 @@ generación de datos, pipeline ETL, análisis SQL y dashboard ejecutivo en Power
 
 ---
 
+## 🖼️ Dashboard
+
+### Resumen Ejecutivo
+![Resumen Ejecutivo](docs/resumen_ejecutivo.png)
+
+### Análisis de Carriers
+![Análisis de Carriers](docs/analisis_carriers.png)
+
+### Geografía y Costos
+![Geografía y Costos](docs/geografia_costos.png)
+
+---
+
 ## 🏗️ Arquitectura del pipeline
 Raw Data (CSV/XLSX)
 ↓
@@ -64,6 +77,10 @@ proyecto-pipeline/
 ├── dashboards/
 │   ├── logistics_dashboard.pbix
 │   └── logistics_dashboard.pdf
+├── docs/
+│   ├── resumen_ejecutivo.png
+│   ├── analisis_carriers.png
+│   └── geografia_costos.png
 └── README.md
 ---
 
@@ -71,8 +88,8 @@ proyecto-pipeline/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/TU-USUARIO/proyecto-pipeline
-cd proyecto-pipeline
+git clone https://github.com/ErickDorado/proyecto-pipeline-logistico
+cd proyecto-pipeline-logistico
 
 # 2. Instalar dependencias
 pip install pandas numpy faker openpyxl matplotlib seaborn duckdb
