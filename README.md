@@ -28,6 +28,17 @@ generación de datos, pipeline ETL, análisis SQL y dashboard ejecutivo en Power
 ![Geografía y Costos](docs/geografia_costos.png)
 
 ---
+## 🛠️ Stack tecnológico
+
+| Herramienta | Uso |
+|-------------|-----|
+| Python · pandas · numpy | Generación de datos y ETL |
+| Faker | Datos sintéticos realistas |
+| DuckDB · SQL | Análisis exploratorio y KPIs |
+| Power BI · DAX | Dashboard ejecutivo |
+| Excel | Fuente de datos consolidada |
+
+---
 
 ## 🏗️ Arquitectura del pipeline
 ```text
@@ -41,22 +52,11 @@ Tablas Analíticas          SQL Queries
 ↓
 Power BI Dashboard
 (3 páginas ejecutivas)
----
-
-## 🛠️ Stack tecnológico
-
-| Herramienta | Uso |
-|-------------|-----|
-| Python · pandas · numpy | Generación de datos y ETL |
-| Faker | Datos sintéticos realistas |
-| DuckDB · SQL | Análisis exploratorio y KPIs |
-| Power BI · DAX | Dashboard ejecutivo |
-| Excel | Fuente de datos consolidada |
 
 ---
 
 ## 📁 Estructura del proyecto
-```text
+
 proyecto-pipeline/
 ├── data/
 │   ├── raw/                  # Dataset original generado
