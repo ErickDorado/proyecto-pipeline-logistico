@@ -55,6 +55,7 @@ Power BI Dashboard
 ---
 
 ## 📁 Estructura del proyecto
+```text
 proyecto-pipeline/
 ├── data/
 │   ├── raw/                  # Dataset original generado
