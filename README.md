@@ -30,6 +30,7 @@ generación de datos, pipeline ETL, análisis SQL y dashboard ejecutivo en Power
 ---
 
 ## 🏗️ Arquitectura del pipeline
+```text
 Raw Data (CSV/XLSX)
 ↓
 Python ETL
