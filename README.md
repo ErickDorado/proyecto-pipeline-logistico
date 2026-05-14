@@ -40,6 +40,14 @@ generación de datos, pipeline ETL, análisis SQL y dashboard ejecutivo en Power
 
 ---
 
+## ⚠️ Limitaciones del dataset
+
+- Dataset sintético generado con distribuciones estadísticas controladas
+- Los valores de costo representan escenarios simulados, no tarifas reales de carriers
+- La cobertura geográfica está simplificada a 6 zonas del mercado argentino
+
+---
+
 ## 🏗️ Arquitectura del pipeline
 ```text
 Raw Data (CSV/XLSX)
@@ -266,9 +274,3 @@ Tasa de devolución del **5.1% global**, con picos en Marzo (7.1%) y Mayo (6.1%)
 | 🔜 | **Score de riesgo por pedido** | Modelo predictivo que asigne probabilidad de demora a cada pedido según zona, carrier y mes. Permite intervenir antes de que el problema ocurra |
 | 🔜 | **Automatización del pipeline** | Scheduling diario del ETL para que el dashboard se actualice solo sin intervención manual |
 | 🔜 | **Conexión a datos reales** | Reemplazar el dataset sintético por datos reales vía API o base de datos PostgreSQL |
-
-## ⚠️ Limitaciones del dataset
-
-- Dataset sintético generado con distribuciones estadísticas controladas
-- Los valores de costo representan escenarios simulados, no tarifas reales de carriers
-- La cobertura geográfica está simplificada a 6 zonas del mercado argentino
